@@ -1,6 +1,6 @@
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;
-
+//https://github.com/aws-samples/serverless-mutual-tls/blob/cd78735b4490df6361481bc20ea842c548e86419/software/3-lambda-using-parameter-store/src/main/java/com/amazon/aws/example/AppClient.java#L13
 import javax.net.ssl.*;
 import java.io.InputStream;
 import java.security.KeyStore;
