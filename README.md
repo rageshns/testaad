@@ -1,4 +1,5 @@
 # testaad
+openssl x509 -inform der -in your-certificate.crt -out your-certificate.pem
 
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;
